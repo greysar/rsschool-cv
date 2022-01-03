@@ -53,7 +53,7 @@ body {
 }
 
 .person-name-block h1 {
-  font-family: "Cookie";
+  font-family: Cookie, sans-serif;
   font-size: 74px;
   color: #fff;
   text-shadow: 5px 3px 4px rgba(0, 0, 0, 1);
@@ -61,7 +61,7 @@ body {
 }
 
 .person-name-block h2 {
-  font-family: "Cookie";
+  font-family: Cookie, sans-serif;
   font-size: 31px;
   padding-left: 38px;
   text-shadow: 5px 3px 4px rgba(0, 0, 0, 1);
@@ -230,6 +230,12 @@ body {
   padding: 10px;
 }
 
+.apps-year {
+  color: #fff;
+  position: relative;
+  top: 5px;
+}
+
 @media (max-width: 1240px) {
   .container {
     width: 100%;
@@ -265,12 +271,12 @@ body {
   }
 
   .person-name-block h1 {
-    font-family: "Cookie";
+    font-family: Cookie, sans-serif;
     font-size: 65px;
   }
 
   .person-name-block h2 {
-    font-family: "Cookie";
+    font-family: Cookie, sans-serif;
     font-size: 27px;
     padding-left: 10px;
   }
@@ -355,7 +361,7 @@ body {
   }
 
   .person-name-block h2 {
-    font-family: "Cookie";
+    font-family: Cookie;
     font-size: 21px;
     padding-left: 0px;
   }
@@ -378,6 +384,12 @@ body {
     width: 90%;
     margin: 5px;
   }
+
+  .apps-year {
+    color: #fff;
+    position: static;
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 390px) {
@@ -387,7 +399,7 @@ body {
   }
 
   .person-name-block h2 {
-    font-family: "Cookie";
+    font-family: Cookie, sans-serif;
     font-size: 22px;
     padding-left: 10px;
   }
